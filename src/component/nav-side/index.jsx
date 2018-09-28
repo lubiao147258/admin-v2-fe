@@ -16,28 +16,28 @@ class NavSide extends React.Component {
                     <ul className="nav" id="main-menu">
 
                         <li>
-                            <a href="index.html"><i className="fa fa-dashboard"></i> Dashboard</a>
+                            <a href="index.html"><i className="fa fa-dashboard"></i> 首页</a>
                         </li>
                         <li>
-                            <a href="ui-elements.html" className="active-menu"><i className="fa fa-desktop"></i> UI Elements</a>
+                            <a href="ui-elements.html" className="active-menu"><i className="fa fa-desktop"></i> 菜单一</a>
                         </li>
                         <li>
-                            <a href="chart.html"><i className="fa fa-bar-chart-o"></i> Charts</a>
+                            <a href="chart.html"><i className="fa fa-bar-chart-o"></i> 菜单二</a>
                         </li>
                         <li>
-                            <a href="tab-panel.html"><i className="fa fa-qrcode"></i> Tabs &amp; Panels</a>
-                        </li>
-
-                        <li>
-                            <a href="table.html"><i className="fa fa-table"></i> Responsive Tables</a>
-                        </li>
-                        <li>
-                            <a href="form.html"><i className="fa fa-edit"></i> Forms </a>
+                            <a href="tab-panel.html"><i className="fa fa-qrcode"></i> 菜单三</a>
                         </li>
 
+                        <li>
+                            <a href="table.html"><i className="fa fa-table"></i> 菜单四</a>
+                        </li>
+                        <li>
+                            <a href="form.html"><i className="fa fa-edit"></i> 菜单五 </a>
+                        </li>
+
 
                         <li>
-                            <a href="#"><i className="fa fa-sitemap"></i> Multi-Level Dropdown<span className="fa arrow"></span></a>
+                            <a href="#"><i className="fa fa-sitemap"></i> 菜单六<span className="fa arrow"></span></a>
                             <ul className="nav nav-second-level collapse">
                                 <li>
                                     <a href="#">Second Level Link</a>
@@ -64,7 +64,7 @@ class NavSide extends React.Component {
                             </ul>
                         </li>
                         <li>
-                            <a href="empty.html"><i className="fa fa-fw fa-file"></i> Empty Page</a>
+                            <a href="empty.html"><i className="fa fa-fw fa-file"></i> 菜单七</a>
                         </li>
                     </ul>
 
